@@ -85,3 +85,20 @@ In finite environments, this converges to the optimal solution (under standard c
 
 ## One-Line Memory
 Q-Learning learns the long-term value of each action in each state, then chooses the highest-value action.
+
+
+🧠 Clean Mental Model
+
+At state S:
+
+Try all actions
+
+Each action has a Q-value
+
+Pick action with highest Q
+
+Move to next state
+
+Repeat
+
+Eventually, Q-values converge to optimal ones.
