@@ -30,3 +30,5 @@ htmlcov/
 # OS files
 .DS_Store
 Thumbs.db
+# DQN model outputs
+src/deep_q_network/cartpole_model/
